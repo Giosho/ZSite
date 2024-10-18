@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light gray background */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: flex-start; /* Align content to the top */
+    font-family: 'Arial', sans-serif; /* Font style */
+}
+
+html {
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+.menu {
+    text-align: center; /* Center text */
+    background: white; /* White background for content */
+    padding: 30px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 80%; /* Adjust width */
+    max-width: 800px; /* Max width */
+    margin-top: 20px; /* Space from top */
+}
+
+.banner {
+    display: flex; /* Horizontal layout */
+    justify-content: center; /* Center items */
+    margin-bottom: 20px; /* Space below the banner */
+}
+
+.banner a {
+    margin: 0 10px; /* Space between links */
+    text-decoration: none; /* Remove underline */
+    color: white; /* Button text color */
+    background-color: #53090b; /* Button color */
+    padding: 12px 20px; /* Increased padding for a better look */
+    border-radius: 25px; /* More rounded corners */
+    font-size: 1.2em; /* Font size */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; /* Transition effects */
+}
+
+.banner a:hover {
+    background-color: #320507; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+
+.section {
+    margin: 20px 0; /* Space between sections */
+    padding: 20px; /* Padding inside sections */
+    background: #e8e8e8; /* Light background for sections */
+    border-radius: 10px; /* Rounded corners for sections */
+}
+
+h1 {
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Darker text color */
+}
+
+h2 {
+    margin-top: 0; /* Remove top margin for section headings */
+    color: #333; /* Darker text color */
+}
+
+p {
+    color: #666; /* Lighter text color */
+}
+
+/* Hobby list styles */
+.hobby-list {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+}
+
+.hobby-list li {
+    margin: 15px 0; /* Space between items */
+}
+
+.hobby-item {
+    display: flex; /* Flex layout */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    transition: background-color 0.2s; /* Transition effect */
+    padding: 10px; /* Padding */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.hobby-item:hover {
+    background-color: #f6eedf; /* Light blue background on hover */
+}
+
+.hobby-image {
+    margin-left: 10px; /* Space between text and image */
+    width: 30px; /* Adjusted width for smaller icons */
+    height: 30px; /* Adjusted height for smaller icons */
+    object-fit: contain; /* Maintain aspect ratio without cropping */
+}
